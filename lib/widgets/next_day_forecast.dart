@@ -4,8 +4,8 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
 import 'package:flutter_weather_app/config/keys.dart';
 
-class ForecastWeatherCard extends StatelessWidget {
-  const ForecastWeatherCard({
+class NextDayForecastCard extends StatelessWidget {
+  const NextDayForecastCard({
     super.key,
     required NextDayForecast forecast,
   }) : _forecast = forecast;
